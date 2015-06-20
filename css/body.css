@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+}
+
+#content {
+    margin: 70px auto 0;
+    background-color: #f2f2f2;
+    width: 100%;
+
+}
+
+.content_element {
+    height: 700px;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9fcfc;
+}
+
+.content_element *{
+    font-size: 17;
+    white-space: nowrap;
+}
+
+.content_element:not(#home) {
+    padding-top: 70px;
+}
+
+.content_picture {
+    height: 350px;
+    width: 350px;
+    float: left;
+    padding-left: 100px;
+    padding-top: 130px;
+    padding-right: 30px;
+}
+
+.content_data {
+    padding-top: 140px;
+    padding-left: 150px;
+}
+
+.contact_icon {
+    height: 40px;
+    width: 40px;
+}
+
+#display_picture {
+    border-radius: 275px;
+    padding: 90px;
+}
+
+#contact_table {
+    margin-left: 250px;
+}
+
+#geek_div {
+    margin-right: 50px;
+    margin-top: 70px;
+    float: right;
+}

@@ -1,0 +1,8 @@
+* {
+    font-family: Calibri, sans-serif;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #b44505;
+}
