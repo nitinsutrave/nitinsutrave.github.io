@@ -1,18 +1,24 @@
 * {
-    font-family: Calibri, sans-serif;
+  font-family: Calibri, sans-serif;
 }
 
 a:link, a:visited, a:active {
-    text-decoration: none;
-    color: #b44505;
-    max-width: inherit;
-    white-space: normal;
+  text-decoration: none;
+  color: #b44505;
+  max-width: inherit;
+  white-space: normal;
 }
 
 a.wide {
-    display: block;
+  display: block;
 }
 
 p {
-    margin: 0px;
+  margin: 0px;
+}
+
+#p_title {
+  color: #929092;
+  font-size: xx-large;
+  font-weight: bold;
 }

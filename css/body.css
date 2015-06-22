@@ -1,72 +1,73 @@
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 #main_page {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    padding-left: 20%;
-    background-color: #312e2e;
-    z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-left: 20%;
+  background-color: #312e2e;
+  z-index: -1;
 }
 
 #content {
-    height: 94%;
-    overflow-y: scroll;
+  height: 94%;
+  overflow-y: scroll;
 }
 
 .content_element {
-    height: 100%;
-    width: 80%;
-    background-color: #312e2e;
+  height: 100%;
+  width: 80%;
+  background-color: #312e2e;
 }
 
 .content_data {
-    margin: 0 auto;
-    padding-top: 5%;
-    padding-left: 5%;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-left: 5%;
 }
 
 .content_element *{
-    font-size: 1.5vw;
-    color: #d9d9d9;
+  font-size: 1.5vw;
+  color: #d9d9d9;
 }
 
 .content_picture {
-    height: 30%;
-    width: 30%;
-    float: left;
+  height: 30%;
+  width: 30%;
+  float: left;
 }
 
 .contact_icon {
-    height: 25%;
-    width: 25%;
+  height: 25%;
+  width: 25%;
 }
 
 #contact_table {
-    //margin-left: 250px;
+  //margin-left: 250px;
 }
 
 #download_resume {
-    background-color: #858383;
-    height: 30%;
-    width: 40%;
-    margin-left: 7%;
-    padding: 0;
-    border: 0;
+  background-color: #858383;
+  height: 30%;
+  width: 40%;
+  margin-left: 7%;
+  margin-top: 0.5%;
+  padding: 0;
+  border: 0;
 }
 
 #page_footer {
-    position: fixed;
-    background-color: #2b2a2a;
-    width: 80%;
-    height: 6%;
-    padding-right: 5%;
-    
-    color: #d9d9d9;
-    font-weight: bold;
-    font-size: 1vw;
-    line-height: 290%;
-    text-align: center;
+  position: fixed;
+  background-color: #2b2a2a;
+  width: 80%;
+  height: 6%;
+  padding-right: 5%;
+
+  color: #d9d9d9;
+  font-weight: bold;
+  font-size: 1vw;
+  line-height: 290%;
+  text-align: center;
 }

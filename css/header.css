@@ -1,42 +1,42 @@
 #header {
-    position: fixed;
-    width: 20%;
-    height: 100%;
-    background-color: #363535;
-    top: 0;
-    opacity: 0.95;
-    z-index: 1;
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  background-color: #363535;
+  top: 0;
+  opacity: 0.95;
+  z-index: 1;
 }
 
 #display_box {
-    height: 35%;
+  height: 35%;
 }
 
 #display_picture {
-    height: 75%;
-    width: 75%;
-    border-radius: 100%;
-    padding: 10%;
+  height: 75%;
+  width: 75%;
+  border-radius: 100%;
+  padding: 10%;
 }
 
 #navigator ul {
-    margin: 0;
-    padding: 12%;
-    list-style-type: none;
+  margin: 0;
+  padding: 12%;
+  list-style-type: none;
 }
 
 #navigator ul li {
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    text-align: right;
-    font-size: 22px;
-    font-size: 1.4vw;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  text-align: right;
+  font-size: 22px;
+  font-size: 1.4vw;
 }
 
 #navigator ul li a {
-    color: #d9d9d9;
+  color: #d9d9d9;
 }
 
 #navigator ul li:hover {
-    background: #727171;
+  background: #727171;
 }
