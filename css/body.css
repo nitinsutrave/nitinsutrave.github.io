@@ -2,60 +2,71 @@ body {
     margin: 0px;
 }
 
-#content {
-    margin: 70px auto 0;
-    background-color: #f2f2f2;
+#main_page {
+    position: fixed;
     width: 100%;
+    height: 100%;
+    padding-left: 20%;
+    background-color: #312e2e;
+    z-index: -1;
+}
 
+#content {
+    height: 94%;
+    overflow-y: scroll;
 }
 
 .content_element {
-    height: 700px;
-    width: 1150px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #f9fcfc;
-}
-
-.content_element *{
-    font-size: 17;
-    white-space: nowrap;
-}
-
-.content_element:not(#home) {
-    padding-top: 70px;
-}
-
-.content_picture {
-    height: 350px;
-    width: 350px;
-    float: left;
-    padding-left: 100px;
-    padding-top: 130px;
-    padding-right: 30px;
+    height: 100%;
+    width: 80%;
+    background-color: #312e2e;
 }
 
 .content_data {
-    padding-top: 140px;
-    padding-left: 150px;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.content_element *{
+    font-size: 1.5vw;
+    color: #d9d9d9;
+}
+
+.content_picture {
+    height: 30%;
+    width: 30%;
+    float: left;
 }
 
 .contact_icon {
-    height: 40px;
-    width: 40px;
-}
-
-#display_picture {
-    border-radius: 275px;
-    padding: 90px;
+    height: 25%;
+    width: 25%;
 }
 
 #contact_table {
-    margin-left: 250px;
+    //margin-left: 250px;
 }
 
-#geek_div {
-    margin-right: 50px;
-    margin-top: 70px;
-    float: right;
+#download_resume {
+    background-color: #858383;
+    height: 30%;
+    width: 40%;
+    margin-left: 7%;
+    padding: 0;
+    border: 0;
+}
+
+#page_footer {
+    position: fixed;
+    background-color: #2b2a2a;
+    width: 80%;
+    height: 6%;
+    padding-right: 5%;
+    
+    color: #d9d9d9;
+    font-weight: bold;
+    font-size: 1vw;
+    line-height: 290%;
+    text-align: center;
 }

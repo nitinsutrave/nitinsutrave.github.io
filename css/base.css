@@ -5,4 +5,14 @@
 a:link, a:visited, a:active {
     text-decoration: none;
     color: #b44505;
+    max-width: inherit;
+    white-space: normal;
+}
+
+a.wide {
+    display: block;
+}
+
+p {
+    margin: 0px;
 }
